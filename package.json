@@ -38,7 +38,7 @@
   "dependencies": {
     "commander": "^2.20.3",
     "json2xls": "^0.1.2",
-    "lodash": "^4.17.20",
+    "lodash": "^4.17.21",
     "nunjucks": "^3.2.1",
     "pegjs": "^0.10.0"
   },
