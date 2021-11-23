@@ -5472,7 +5472,7 @@
           }
         ]
       },
-      "expected": "V_in: =2*A;\n//!!  in case of influx the left part of the equation  is empty\nV1: 2*A+C=4*B+D;\nV2: D=C;\nV_out: B=;//  in case of efflux the right part of the equation  is empty\n"
+      "expected": "V_in: =2*A;\r\n//!!  in case of influx the left part of the equation  is empty\r\nV1: 2*A+C=4*B+D;\r\nV2: D=C;\r\nV_out: B=;//  in case of efflux the right part of the equation  is empty\r\n"
     }
   ]
 }

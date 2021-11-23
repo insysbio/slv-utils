@@ -39,11 +39,11 @@
     "commander": "^2.20.3",
     "json2xls": "^0.1.2",
     "lodash": "^4.17.21",
-    "nunjucks": "^3.2.1",
+    "nunjucks": "^3.2.3",
     "pegjs": "^0.10.0"
   },
   "devDependencies": {
-    "chai": "^4.2.0",
-    "mocha": "^7.1.1"
+    "chai": "^4.3.4",
+    "mocha": "^9.1.3"
   }
 }
