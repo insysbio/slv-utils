@@ -7,6 +7,5 @@ module.exports = {
   rctParse: require('./parsers/rct-parser'),
   rctTemplate: require('./serialize').RCT,
   datTemplate: require('./serialize').DAT,
-  json2excel: require('./excel/json2excel').default,
   slvjs2heta: require('./slvjs2heta').slvjs2heta
 };

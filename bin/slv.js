@@ -18,6 +18,5 @@ commander
   // serializers
   .command('dat-serialize <inputFile>', 'Serialize .DAT file')
   .command('rct-serialize <inputFile>', 'Serialize .RCT file')
-  .command('json2excel <inputFile>', 'Convert .DATJS to .XLSX')
 
   .parse(process.argv);

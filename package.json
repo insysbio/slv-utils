@@ -1,6 +1,6 @@
 {
   "name": "slv-utils",
-  "version": "0.4.1",
+  "version": "0.5.0",
   "description": "Utilities for working with SLV and DAT files.",
   "main": "src/index.js",
   "bin": {
@@ -38,7 +38,6 @@
   "homepage": "https://github.com/insysbio/slv-utils",
   "dependencies": {
     "commander": "^2.20.3",
-    "json2xls": "^0.1.2",
     "lodash": "^4.17.21",
     "nunjucks": "^3.2.3",
     "pegjs": "^0.10.0"

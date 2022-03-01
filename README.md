@@ -11,7 +11,7 @@ DBSolveOptimum is modeling software for systems biology and systems pharmacology
 
 ## Installation
 
-Required `nodejs` installed. Recommended version is >= 8.0.0.
+Required `nodejs` installed. Recommended version is >= 10.0.0.
 ```
 npm install --global slv-utils
 slv --version
@@ -77,6 +77,8 @@ Serialize DAT from DATJS format (reverse to slv dat-parse).
 ```shell
 slv dat-serialize -o output.dat input.json
 ```
+
+## Transformations available in previous versions
 
 Convert XLSX file with specific structure to DAT.
 ```shell
