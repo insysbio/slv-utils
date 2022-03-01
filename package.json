@@ -10,8 +10,7 @@
     "slv-dat-parse": "./bin/slv-dat-parse.js",
     "slv-rct-parse": "./bin/slv-rct-parse.js",
     "slv-rct-serialize": "./bin/slv-rct-serialize.js",
-    "slv-dat-serialize": "./bin/slv-dat-serialize.js",
-    "slv-json2excel": "./bin/slv-json2excel.js"
+    "slv-dat-serialize": "./bin/slv-dat-serialize.js"
   },
   "scripts": {
     "test0": "npm run generate&& mocha ./test/parse-serialize.js",
