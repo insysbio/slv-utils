@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## 0.4.1
+
+- fix auto-test
+- update dependencies
+
+## 0.4.0
+
 ## 0.3.0 - no excell import
 
 - remove all imports by excell: excel2json, excel2dat
