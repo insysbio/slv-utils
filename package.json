@@ -14,8 +14,9 @@
     "slv-json2excel": "./bin/slv-json2excel.js"
   },
   "scripts": {
-    "test0": "npm run generate&& mocha ./test/slv.js",
-    "test": "npm run generate&& node test/build.js && mocha test/slv.js test/index.js",
+    "test0": "npm run generate&& mocha ./test/parse-serialize.js",
+    "test": "npm run generate&& node test/build.js&& mocha test/slv.js test/parse-serialize.js",
+    "rebuild": "node test/build.js",
     "generate": "pegjs -o src/parsers/slv-raw-parser.js src/parsers/pegjs/slv-raw.pegjs && pegjs -o src/parsers/slv-value-parser.js src/parsers/pegjs/slv-value.pegjs && pegjs -o src/parsers/dat-parser.js src/parsers/pegjs/dat.pegjs && pegjs -o src/parsers/rct-parser.js src/parsers/pegjs/rct.pegjs"
   },
   "repository": {

@@ -1,11 +1,17 @@
 /*global describe it*/
 'use strict';
 
-const { slvParse, slvjs2heta } = require('../src');
+/*
+  testing of conversion of SLV into different formats
+  from /cases/?/model.slv and compare with /cases/?/master/?
+*/
+
 const { expect } = require('chai');
-const cases = require('./slv-cases');
 const fs = require('fs');
 const path = require('path');
+
+const { slvParse, slvjs2heta } = require('../src');
+const cases = require('./slv-cases');
 
 describe('SLV exports', () => {
   cases.forEach((x) => {

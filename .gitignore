@@ -1,5 +1,4 @@
 node_modules
-result.txt
 *.log
 /drafts/
 /.vscode/
